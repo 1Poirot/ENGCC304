@@ -6,13 +6,13 @@ int main() {
     int hrs;
     float salary;
     
-    printf("Input the Employees ID(Max. 10 chars):");
+    printf("Input the Employees ID(Max. 10 chars): \n");
     scanf("%10s", ID);
     
-    printf("Input the working hrs: ");
+    printf("Input the working hrs: \n");
     scanf("%d", &hrs);
 
-    printf("Salary amount/hr: ");
+    printf("Salary amount/hr: \n");
     scanf("%f", &salary);
     
     printf("Expected Output:\n");
