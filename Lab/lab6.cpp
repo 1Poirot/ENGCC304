@@ -17,7 +17,7 @@ int main() {
             }
         }
     } else {
-        printf("%d odd number\n", N);
+        printf("Series:"); 
         for (i = 1; i <= N; i = i + 1) {
             if (i % 2 == 1) {
                 printf("%d ", i);
